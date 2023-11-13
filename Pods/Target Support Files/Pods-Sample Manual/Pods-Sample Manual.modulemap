@@ -1,0 +1,6 @@
+framework module Pods_Sample_Manual {
+  umbrella header "Pods-Sample Manual-umbrella.h"
+
+  export *
+  module * { export * }
+}

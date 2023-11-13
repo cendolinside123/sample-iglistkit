@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "BED66F62-247E-4E0D-915A-13D716AA7AFE"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1ED6B2B3-7793-4AAD-9A3A-FC2E6B1BBE34"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sample Manual/ViewController/DetailViewController/DetailViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "180"
+            endingLineNumber = "180"
+            landmarkName = "listAdapter(_:sectionControllerFor:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "1ED6B2B3-7793-4AAD-9A3A-FC2E6B1BBE34 - 256890033c157c54"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Sample_Manual.DetailViewController.listAdapter(_: __C.IGListAdapter, sectionControllerFor: Any) -&gt; __C.IGListSectionController"
+                  moduleName = "Sample Manual"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jansebastian/Documents/Pribadi/Sample%20Manual/Sample%20Manual/ViewController/DetailViewController/DetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "180"
+                  endingLineNumber = "180"
+                  offsetFromSymbolStart = "1148">
+               </Location>
+               <Location
+                  uuid = "1ED6B2B3-7793-4AAD-9A3A-FC2E6B1BBE34 - 256890033c157c54"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Sample_Manual.DetailViewController.listAdapter(_: __C.IGListAdapter, sectionControllerFor: Any) -&gt; __C.IGListSectionController"
+                  moduleName = "Sample Manual"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jansebastian/Documents/Pribadi/Sample%20Manual/Sample%20Manual/ViewController/DetailViewController/DetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "180"
+                  endingLineNumber = "180"
+                  offsetFromSymbolStart = "1528">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "36CC9551-DD74-4030-9449-3975BD0AD829"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sample Manual/ViewController/DetailViewController/DetailViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "121"
+            endingLineNumber = "121"
+            landmarkName = "objects(for:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "36CC9551-DD74-4030-9449-3975BD0AD829 - 6d90cddfab074c80"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Sample_Manual.DetailViewController.objects(for: __C.IGListAdapter) -&gt; Swift.Array&lt;__C.IGListDiffable&gt;"
+                  moduleName = "Sample Manual"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jansebastian/Documents/Pribadi/Sample%20Manual/Sample%20Manual/ViewController/DetailViewController/DetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "121"
+                  endingLineNumber = "121"
+                  offsetFromSymbolStart = "1012">
+               </Location>
+               <Location
+                  uuid = "36CC9551-DD74-4030-9449-3975BD0AD829 - 6d90cddfab074c80"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Sample_Manual.DetailViewController.objects(for: __C.IGListAdapter) -&gt; Swift.Array&lt;__C.IGListDiffable&gt;"
+                  moduleName = "Sample Manual"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jansebastian/Documents/Pribadi/Sample%20Manual/Sample%20Manual/ViewController/DetailViewController/DetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "121"
+                  endingLineNumber = "121"
+                  offsetFromSymbolStart = "1200">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
