@@ -14,13 +14,13 @@
             filePath = "Sample Manual/ViewController/DetailViewController/DetailViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "180"
-            endingLineNumber = "180"
+            startingLineNumber = "186"
+            endingLineNumber = "186"
             landmarkName = "listAdapter(_:sectionControllerFor:)"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "1ED6B2B3-7793-4AAD-9A3A-FC2E6B1BBE34 - 256890033c157c54"
+                  uuid = "1ED6B2B3-7793-4AAD-9A3A-FC2E6B1BBE34 - 256890033c157d2a"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -30,12 +30,12 @@
                   urlString = "file:///Users/jansebastian/Documents/Pribadi/Sample%20Manual/Sample%20Manual/ViewController/DetailViewController/DetailViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "180"
-                  endingLineNumber = "180"
-                  offsetFromSymbolStart = "1148">
+                  startingLineNumber = "186"
+                  endingLineNumber = "186"
+                  offsetFromSymbolStart = "1528">
                </Location>
                <Location
-                  uuid = "1ED6B2B3-7793-4AAD-9A3A-FC2E6B1BBE34 - 256890033c157c54"
+                  uuid = "1ED6B2B3-7793-4AAD-9A3A-FC2E6B1BBE34 - 256890033c157d6c"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -45,8 +45,8 @@
                   urlString = "file:///Users/jansebastian/Documents/Pribadi/Sample%20Manual/Sample%20Manual/ViewController/DetailViewController/DetailViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "180"
-                  endingLineNumber = "180"
+                  startingLineNumber = "188"
+                  endingLineNumber = "188"
                   offsetFromSymbolStart = "1528">
                </Location>
             </Locations>
@@ -55,49 +55,385 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "36CC9551-DD74-4030-9449-3975BD0AD829"
+            uuid = "103DB278-3DC8-4425-9A9B-BAC99CEE9B6D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/IGListKit/Source/IGListKit/IGListAdapter.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "566"
+            endingLineNumber = "566"
+            landmarkName = "-sizeForItemAtIndexPath:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4A14E015-D2E9-4143-B43D-BAA691C0BFEE"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Sample Manual/ViewController/DetailViewController/DetailViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "121"
-            endingLineNumber = "121"
+            startingLineNumber = "131"
+            endingLineNumber = "131"
             landmarkName = "objects(for:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B6BD8DEE-DE87-4DF1-8BBD-0A49BC6D4508"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sample Manual/ViewController/DetailViewController/DetailViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "106"
+            endingLineNumber = "106"
+            landmarkName = "objects(for:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7719446D-6F19-41EA-8F2D-5C143C5DEA19"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sample Manual/ViewController/DetailViewController/DetailViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "137"
+            endingLineNumber = "137"
+            landmarkName = "listAdapter(_:sectionControllerFor:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A03A7616-01C7-43D2-99F3-BC609CCD987E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sample Manual/CustomView/ListViewHolder/Article/TitleArticleViewHolder.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "cellForItem(at:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AB4318C8-F3FF-4098-B70A-D46834136098"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sample Manual/CustomView/ListViewHolder/Article/TitleArticleViewHolder.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "75"
+            endingLineNumber = "75"
+            landmarkName = "sizeForItem(at:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E533518E-1C8E-4B39-A043-BF42A60408FA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sample Manual/CustomView/ListViewHolder/Article/TitleArticleViewHolder.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "78"
+            endingLineNumber = "78"
+            landmarkName = "sizeForItem(at:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3175F2EE-22EF-487E-A91E-85C40653A71A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sample Manual/CustomView/ListViewHolder/Article/TitleArticleViewHolder.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "80"
+            endingLineNumber = "80"
+            landmarkName = "sizeForItem(at:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "731ABADD-F347-4BB2-90FD-A226853D4CFF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sample Manual/CustomView/ListViewHolder/Article/Body/BodyGeneralArticleViewHolder.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "71"
+            endingLineNumber = "71"
+            landmarkName = "sizeForItem(at:)"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "36CC9551-DD74-4030-9449-3975BD0AD829 - 6d90cddfab074c80"
+                  uuid = "731ABADD-F347-4BB2-90FD-A226853D4CFF - d0eddf9c4be8d338"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "Sample_Manual.DetailViewController.objects(for: __C.IGListAdapter) -&gt; Swift.Array&lt;__C.IGListDiffable&gt;"
+                  symbolName = "Sample_Manual.BodyGeneralArticleViewHolder.sizeForItem(at: Swift.Int) -&gt; __C.CGSize"
                   moduleName = "Sample Manual"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/jansebastian/Documents/Pribadi/Sample%20Manual/Sample%20Manual/ViewController/DetailViewController/DetailViewController.swift"
+                  urlString = "file:///Users/jansebastian/Documents/Pribadi/Sample%20Manual/Sample%20Manual/CustomView/ListViewHolder/Article/Body/BodyGeneralArticleViewHolder.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "121"
-                  endingLineNumber = "121"
-                  offsetFromSymbolStart = "1012">
+                  startingLineNumber = "79"
+                  endingLineNumber = "79"
+                  offsetFromSymbolStart = "304">
                </Location>
                <Location
-                  uuid = "36CC9551-DD74-4030-9449-3975BD0AD829 - 6d90cddfab074c80"
+                  uuid = "731ABADD-F347-4BB2-90FD-A226853D4CFF - d0eddf9c4be8d338"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "Sample_Manual.DetailViewController.objects(for: __C.IGListAdapter) -&gt; Swift.Array&lt;__C.IGListDiffable&gt;"
+                  symbolName = "Sample_Manual.BodyGeneralArticleViewHolder.sizeForItem(at: Swift.Int) -&gt; __C.CGSize"
                   moduleName = "Sample Manual"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/jansebastian/Documents/Pribadi/Sample%20Manual/Sample%20Manual/ViewController/DetailViewController/DetailViewController.swift"
+                  urlString = "file:///Users/jansebastian/Documents/Pribadi/Sample%20Manual/Sample%20Manual/CustomView/ListViewHolder/Article/Body/BodyGeneralArticleViewHolder.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "121"
-                  endingLineNumber = "121"
-                  offsetFromSymbolStart = "1200">
+                  startingLineNumber = "79"
+                  endingLineNumber = "79"
+                  offsetFromSymbolStart = "324">
                </Location>
             </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "208D6765-D609-44D6-A3F2-2A8964F50422"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sample Manual/CustomView/ListViewHolder/Article/Body/BodyGeneralArticleViewHolder.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "68"
+            endingLineNumber = "68"
+            landmarkName = "sizeForItem(at:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "208D6765-D609-44D6-A3F2-2A8964F50422 - d0eddf9c4be8d355"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Sample_Manual.BodyGeneralArticleViewHolder.sizeForItem(at: Swift.Int) -&gt; __C.CGSize"
+                  moduleName = "Sample Manual"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jansebastian/Documents/Pribadi/Sample%20Manual/Sample%20Manual/CustomView/ListViewHolder/Article/Body/BodyGeneralArticleViewHolder.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "76"
+                  endingLineNumber = "76"
+                  offsetFromSymbolStart = "2836">
+               </Location>
+               <Location
+                  uuid = "208D6765-D609-44D6-A3F2-2A8964F50422 - d0eddf9c4be8d355"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Sample_Manual.BodyGeneralArticleViewHolder.sizeForItem(at: Swift.Int) -&gt; __C.CGSize"
+                  moduleName = "Sample Manual"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jansebastian/Documents/Pribadi/Sample%20Manual/Sample%20Manual/CustomView/ListViewHolder/Article/Body/BodyGeneralArticleViewHolder.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "76"
+                  endingLineNumber = "76"
+                  offsetFromSymbolStart = "2728">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "25C060FA-EA83-4AAA-B6E8-DE2AF9B0361E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sample Manual/CustomView/ListViewHolder/Article/TitleArticleViewHolder.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "76"
+            endingLineNumber = "76"
+            landmarkName = "sizeForItem(at:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "84F09054-DEBA-44D5-8D03-2DD7CA6C505F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sample Manual/Utils/UIString+Extension.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "62"
+            endingLineNumber = "62"
+            landmarkName = "toHtml()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "84F09054-DEBA-44D5-8D03-2DD7CA6C505F - aadb7ae484efec64"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Swift.String.toHtml() -&gt; Swift.Optional&lt;__C.NSMutableAttributedString&gt;"
+                  moduleName = "Sample Manual"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jansebastian/Documents/Pribadi/Sample%20Manual/Sample%20Manual/Utils/UIString+Extension.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "62"
+                  endingLineNumber = "62"
+                  offsetFromSymbolStart = "1864">
+               </Location>
+               <Location
+                  uuid = "84F09054-DEBA-44D5-8D03-2DD7CA6C505F - aadb7ae484efec64"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Swift.String.toHtml() -&gt; Swift.Optional&lt;__C.NSMutableAttributedString&gt;"
+                  moduleName = "Sample Manual"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jansebastian/Documents/Pribadi/Sample%20Manual/Sample%20Manual/Utils/UIString+Extension.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "62"
+                  endingLineNumber = "62"
+                  offsetFromSymbolStart = "1716">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "57060B0D-876B-4533-8EBE-C3F53E413E6A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sample Manual/CustomView/ArticleItem/ParagraphCell/V2/Component/ParagraphV2CollectionViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "71"
+            endingLineNumber = "71"
+            landmarkName = "setValue(value:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9BAFCE28-4CBD-4334-9D82-9953E8C42090"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sample Manual/CustomView/ListViewHolder/Article/Body/BodyGeneralArticleViewHolder.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "cellForItem(at:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "9BAFCE28-4CBD-4334-9D82-9953E8C42090 - 6641b484a5666e49"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.String) -&gt; () in Sample_Manual.BodyGeneralArticleViewHolder.cellForItem(at: Swift.Int) -&gt; __C.UICollectionViewCell"
+                  moduleName = "Sample Manual"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jansebastian/Documents/Pribadi/Sample%20Manual/Sample%20Manual/CustomView/ListViewHolder/Article/Body/BodyGeneralArticleViewHolder.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "9BAFCE28-4CBD-4334-9D82-9953E8C42090 - 453706e1c643ec83"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Sample_Manual.BodyGeneralArticleViewHolder.cellForItem(at: Swift.Int) -&gt; __C.UICollectionViewCell"
+                  moduleName = "Sample Manual"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jansebastian/Documents/Pribadi/Sample%20Manual/Sample%20Manual/CustomView/ListViewHolder/Article/Body/BodyGeneralArticleViewHolder.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "848">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "282C4C11-BAA7-4398-BEA4-D1A87608BA67"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sample Manual/CustomView/ListViewHolder/Article/TitleArticleViewHolder.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "cellForItem(at:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "84852834-C377-4010-80C4-C62740637455"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sample Manual/CustomView/ListViewHolder/Article/TitleArticleViewHolder.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "cellForItem(at:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

@@ -119,15 +119,18 @@ extension ArticleViewModelImpl {
                             currentChild = currentChild?.child
                         }
                         headLink.text = headLink.text.replacingOccurrences(of: "<p class=\"baca\">", with: "").replacingOccurrences(of: "</p>", with: "")
+                        headLink.size = headLink.text.replacingOccurrences(of: "<p class=\"baca\">", with: "").replacingOccurrences(of: "</p>", with: "").toHtml()?.boundingRect(with: CGSize(width: (UIScreen.main.bounds.width - 10), height: CGFloat.greatestFiniteMagnitude), options: [.usesLineFragmentOrigin, .usesFontLeading], context: nil)
                         if getItemText != "Baca: " && getItemText != "Baca juga: "{
                             let textParagraph = getItemText.replacingOccurrences(of: "<p class=\"baca\">", with: "").replacingOccurrences(of: "</p>", with: "")
-                            contentComponent.append(LineDesc(text: textParagraph, link: "", child: nil, type: .paragraph))
+                            let getSizeP = textParagraph.toHtml()?.boundingRect(with: CGSize(width: (UIScreen.main.bounds.width - 10), height: CGFloat.greatestFiniteMagnitude), options: [.usesLineFragmentOrigin, .usesFontLeading], context: nil)
+                            contentComponent.append(LineDesc(text: textParagraph, link: "", child: nil, type: .paragraph, size: getSizeP))
                         } else {
                             contentComponent.append(headLink)
                         }
                     } else {
                         let textParagraph = (getItem ?? "").replacingOccurrences(of: "\\240", with: "").replacingOccurrences(of: "<p>", with: "").replacingOccurrences(of: "</p>", with: "")
-                        let result = LineDesc(text: textParagraph, link: "", child: nil, type: .paragraph)
+                        let getSizeP = textParagraph.toHtml()?.boundingRect(with: CGSize(width: (UIScreen.main.bounds.width - 10), height: CGFloat.greatestFiniteMagnitude), options: [.usesLineFragmentOrigin, .usesFontLeading], context: nil)
+                        let result = LineDesc(text: textParagraph, link: "", child: nil, type: .paragraph, size: getSizeP)
                         contentComponent.append(result)
                     }
                     
@@ -161,11 +164,15 @@ extension ArticleViewModelImpl {
                     
                 } else if get_tabel?.count != 0 {
                     let removeBorder = (getItem ?? "").replacingOccurrences(of: "<table border=\"1\">", with: "<table>")
-                    let result = LineDesc(text: removeBorder, link: "", child: nil, type: .paragraph)
+                    let getSizeTable = removeBorder.toHtml()?.boundingRect(with: CGSize(width: (UIScreen.main.bounds.width - 10), height: CGFloat.greatestFiniteMagnitude), options: [.usesLineFragmentOrigin, .usesFontLeading], context: nil)
+                    let result = LineDesc(text: removeBorder, link: "", child: nil, type: .paragraph, size: getSizeTable)
                     contentComponent.append(result)
                 } else {
                     let textParagraph = (getItem ?? "").replacingOccurrences(of: "\\240", with: "").replacingOccurrences(of: "<p>", with: "").replacingOccurrences(of: "</p>", with: "")
-                    let result = LineDesc(text: textParagraph, link: "", child: nil, type: .paragraph)
+                    
+                    let getSizeP = textParagraph.toHtml()?.boundingRect(with: CGSize(width: (UIScreen.main.bounds.width - 10), height: CGFloat.greatestFiniteMagnitude), options: [.usesLineFragmentOrigin, .usesFontLeading], context: nil)
+                    
+                    let result = LineDesc(text: textParagraph, link: "", child: nil, type: .paragraph, size: getSizeP)
                     contentComponent.append(result)
                 }
             }

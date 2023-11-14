@@ -18,7 +18,13 @@ class DetailViewController: UIViewController {
     }()
     
     private let colectionContent: UICollectionView = {
-        let layoutV2 = ListCollectionViewLayout(stickyHeaders: false, scrollDirection: .vertical, topContentInset: 0, stretchToEdge: true)
+        let layoutV2 = ListCollectionViewLayout(stickyHeaders: false, scrollDirection: .vertical, topContentInset: 0, stretchToEdge: false)
+        
+        let layout: UICollectionViewFlowLayout = UICollectionViewFlowLayout()
+        layout.sectionInset = UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 0)
+        layout.scrollDirection = .vertical
+
+        layout.minimumLineSpacing = 0
         
         let collectionView = UICollectionView(frame: .zero, collectionViewLayout: layoutV2)
         collectionView.backgroundColor = UIColor(white: 1, alpha: 0.01)

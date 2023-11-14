@@ -112,13 +112,13 @@ class BodyGeneralArticleViewHolder: ListSectionController {
              
              */
             
-            if let attString = articleData.text.toHtml() {
-                let getSizeTitle = attString.boundingRect(with: CGSize(width: (UIScreen.main.bounds.width - 10), height: CGFloat.greatestFiniteMagnitude), options: [.usesLineFragmentOrigin, .usesFontLeading], context: nil)
-                return CGSize(width: collectionContext!.containerSize.width, height: getSizeTitle.height + CGFloat(10))
+            if let height = articleData.size?.height {
+                return CGSize(width: collectionContext!.containerSize.width, height: height + 10)
             } else {
                 let getSizeTitle = NSString(string: articleData.text).boundingRect(with: CGSize(width: (UIScreen.main.bounds.width - 10), height: CGFloat.greatestFiniteMagnitude), options: [.usesLineFragmentOrigin, .usesFontLeading], attributes: [.font: UIFont(name: Constant.FontName.questrial, size: CGFloat(FontSettings.standartFont))!], context: nil)
                 return CGSize(width: collectionContext!.containerSize.width, height: getSizeTitle.height + 10)
             }
+            
             
         } else if articleData.type == .iFrame {
             if let url = URL(string: articleData.link) {

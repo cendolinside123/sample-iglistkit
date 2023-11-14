@@ -48,12 +48,18 @@ class LineDesc {
     let link: String
     var child: LineDesc?
     let type: LineType
+    var size: CGRect?
     
-    init(text: String, link: String, child: LineDesc?, type: LineType) {
+    init(text: String,
+         link: String,
+         child: LineDesc?,
+         type: LineType,
+         size: CGRect? = nil) {
         self.text = text
         self.link = link
         self.child = child
         self.type = type
+        self.size = size
     }
 }
 
